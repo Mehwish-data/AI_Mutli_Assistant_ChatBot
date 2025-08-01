@@ -1,0 +1,10 @@
+flask
+flask_cors
+python-dotenv
+faiss-cpu
+sentence-transformers
+groq
+PyPDF2
+pydub
+yt_dlp
+beautifulsoup4

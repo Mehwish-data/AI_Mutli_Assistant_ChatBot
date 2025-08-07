@@ -1,6 +1,6 @@
-﻿# AI_Multi_Assistent_Bot
+﻿## AI_Multi_Assistent_Bot
  
-#  Multi-Source AI Chatbot (Flask + Groq LLM + Custom Embeddings).A full-stack AI-powered chatbot that answers questions from **PDFs, YouTube videos, websites, and raw text inputs** — built with Python, Flask, and blazing-fast Groq LLM.
+Multi-Source AI Chatbot (Flask + Groq LLM + Custom Embeddings).A full-stack AI-powered chatbot that answers questions from PDFs, YouTube videos, websites, and raw text inputs** — built with Python, Flask, and blazing-fast Groq LLM.
 
 ## Key Features
 
@@ -33,32 +33,51 @@
 AI_MULTI_ASSISTANT_BOT/
 │
 ├── Backend/
+
 │ ├── bots/
+
 │ │ ├── pdf_bot.py
+
 │ │ ├── text_bot.py
+
 │ │ ├── website_bot.py
+
 │ │ └── youtube_bot.py
 │ │
 │ ├── embeddings/
+
 │ │ ├── pdf.py
+
 │ │ ├── text.py
+
 │ │ ├── website.py
+
 │ │ └── youtube.py
 │ │
 │ ├── utils/
+
 │ │ ├── embeddings.py
+
 │ │ ├── pdf.py
+
 │ │ ├── shared_pdf_utils.py
+
 │ │ ├── text.py
+
 │ │ ├── transcriber.py
+
 │ │ └── website.py
+
 │ ├── templates/
+
 │ │ └── index.html
+
 │ └── app.py # Main Flask app entry point
 │
 ├── requirements.txt
 
 └── vercel_wsai.py # For deployment to Vercel(optional)
+
 
 
 

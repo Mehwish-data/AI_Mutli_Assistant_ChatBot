@@ -31,6 +31,7 @@ Multi-Source AI Chatbot (Flask + Groq LLM + Custom Embeddings).A full-stack AI-p
 ## 📂 Project Structure
 
 AI_MULTI_ASSISTANT_BOT/
+
 │
 ├── Backend/
 
@@ -44,6 +45,7 @@ AI_MULTI_ASSISTANT_BOT/
 
 │ │ └── youtube_bot.py
 │ │
+
 │ ├── embeddings/
 
 │ │ ├── pdf.py
@@ -54,6 +56,7 @@ AI_MULTI_ASSISTANT_BOT/
 
 │ │ └── youtube.py
 │ │
+
 │ ├── utils/
 
 │ │ ├── embeddings.py
@@ -77,6 +80,7 @@ AI_MULTI_ASSISTANT_BOT/
 ├── requirements.txt
 
 └── vercel_wsai.py # For deployment to Vercel(optional)
+
 
 
 
